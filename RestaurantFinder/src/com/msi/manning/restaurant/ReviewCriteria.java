@@ -84,6 +84,7 @@ public class ReviewCriteria extends Activity {
     private void handleGetReviews() {
     if ((location.getText() == null) || 
             location.getText().toString().equals("")) {
+    	Log.v("RestaurantFinder", "location er tómur");
         new AlertDialog.Builder(this).setTitle(R.string.alert_label).
             setMessage(R.string.location_not_supplied_message).
             setPositiveButton("Continue",
