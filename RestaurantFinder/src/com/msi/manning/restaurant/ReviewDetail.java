@@ -66,6 +66,10 @@ public class ReviewDetail extends Activity {
             }
         }
     };
+    /* Creating ReviewDetail
+     * (non-Javadoc)
+     * @see android.app.Activity#onCreate(android.os.Bundle)
+     */
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
